@@ -11,12 +11,12 @@ public class ImageManipulation {
      */
     public static void main(String[] args) {
 
-        //APImage display = new APImage("cyberpunk2077.jpg");
-        //display.draw();
-        //grayScale("cyberpunk2077.jpg");
-        //blackAndWhite("cyberpunk2077.jpg");
-        //edgeDetection("cyberpunk2077.jpg", 20);
-        //reflectImage("cyberpunk2077.jpg");
+        APImage display = new APImage("cyberpunk2077.jpg");
+        display.draw();
+        grayScale("cyberpunk2077.jpg");
+        blackAndWhite("cyberpunk2077.jpg");
+        edgeDetection("cyberpunk2077.jpg", 20);
+        reflectImage("cyberpunk2077.jpg");
         rotateImage("cyberpunk2077.jpg");
 
     }
